@@ -1,0 +1,42 @@
+[debug] [2025-05-13T14:52:22.688Z] ----------------------------------------------------------------------
+[debug] [2025-05-13T14:52:22.691Z] Command:       /nix/store/ixbb20farqh1f4fqbmsn6b1ixn8mc8ij-nodejs-20.18.1/bin/node /nix/store/861z9924lx0974sd2ka1zh20lvw8bsdk-firebase-tools-13.10.0/lib/node_modules/firebase-tools/lib/bin/firebase.js init hosting
+[debug] [2025-05-13T14:52:22.692Z] CLI Version:   13.10.0
+[debug] [2025-05-13T14:52:22.692Z] Platform:      linux
+[debug] [2025-05-13T14:52:22.692Z] Node Version:  v20.18.1
+[debug] [2025-05-13T14:52:22.692Z] Time:          Tue May 13 2025 14:52:22 GMT+0000 (Coordinated Universal Time)
+[debug] [2025-05-13T14:52:22.693Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-05-13T14:52:22.700Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-05-13T14:52:22.701Z] > authorizing via signed-in user (brodibranded@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/user/sloticon
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] 
+=== Hosting Setup
+[debug] [2025-05-13T14:54:22.959Z] Error: Command failed: npm install
+    at genericNodeError (node:internal/errors:984:15)
+    at wrappedFn (node:internal/errors:538:14)
+    at checkExecSyncError (node:child_process:891:11)
+    at execSync (node:child_process:963:15)
+    at init (/nix/store/861z9924lx0974sd2ka1zh20lvw8bsdk-firebase-tools-13.10.0/lib/node_modules/firebase-tools/lib/frameworks/vite/index.js:33:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.init (/nix/store/861z9924lx0974sd2ka1zh20lvw8bsdk-firebase-tools-13.10.0/lib/node_modules/firebase-tools/lib/frameworks/vite/index.js:17:65)
+    at async doSetup (/nix/store/861z9924lx0974sd2ka1zh20lvw8bsdk-firebase-tools-13.10.0/lib/node_modules/firebase-tools/lib/init/features/hosting/index.js:120:13)
+    at async init (/nix/store/861z9924lx0974sd2ka1zh20lvw8bsdk-firebase-tools-13.10.0/lib/node_modules/firebase-tools/lib/init/index.js:39:9)
+[error] 
+[error] Error: An unexpected error has occurred.
